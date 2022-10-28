@@ -5,6 +5,8 @@ body{
   display:flex;
   flex-direction: column;
   flex:1;
+  margin: 0;
+  height: auto;
 }
 
 ul {
@@ -12,7 +14,7 @@ ul {
   padding: 0;
   margin: 0;
   display: flex;
-  gap:8px;
+  gap:24px;
 }
 
 a{
@@ -24,4 +26,143 @@ a{
 .footer,
 .header {
   background-color: #1F2937;
+}
+
+.header {
+  margin: 0px; 
+  padding: 10px 100px 100px 100px;
+}
+
+.header-logo{
+  size:24px;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 40px 0px;
+}
+
+.img {
+  width: 854px;
+  height: auto;
+  background-color: #e5e7eb;
+}
+
+.header-2 {
+  display: flex;
+  
+}
+
+.header-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-2 {
+  color: #F9FAF8;
+  font-weight: 900 ;
+  margin: 0px
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#header-button {
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.box {
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #3882F6;
+  height: 100px;
+  width: 100px;
+
+}
+
+.title2 {
+  text-align: center;
+}
+
+.body-header-info {
+  display: flex;
+  justify-content: center;
+  gap:16px;
+  margin-bottom: 30px;
+}
+
+.bigbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.body-container {
+  background-color: #E5E7EB;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.italic {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  width: 700px;
+  margin-bottom: 0;
+}
+
+.author {
+  margin-top: 0;
+  margin-left: 500px;
+}
+
+.body-footer {
+  background-color: #3882F6;
+  margin: 60px 120px;
+  color: white;
+  padding: 10px 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#footer-button {
+  background-color: #3882F6;
+  color: white;
+  border: solid;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+
+}
+.h3-p {
+  width: 300px;
+}
+
+.footer {
+  color: white;
+  margin: 0;
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
 }
